@@ -19,7 +19,7 @@ RUN sed -Ei "s/\"Server:\s*(nginx\"|\"\s*NGINX_VER|\"\s*NGINX_VER_BUILD)\s*CRLF;
 RUN ./configure                                 \
     --prefix=/usr/local/nginx                      \
     --sbin-path=/usr/sbin/nginx                 \
-    --conf-path=/etc/aa/nginx.conf                \
+    --conf-path=/etc/aa/nginx/nginx.conf                \
     --error-log-path=/var/log/nginx/error.log   \
     --http-log-path=/var/log/nginx/access.log   \
     --pid-path=/etc/aa/lock/nginx.pid           \
