@@ -1,6 +1,6 @@
 FROM aario/centos:7
 
-ENV NginxVer nginx-1.16.1
+ENV NginxVer nginx-1.18.0
 
 WORKDIR /usr/local/src
 ADD ./src/* /usr/local/src/
